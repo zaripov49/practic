@@ -746,6 +746,10 @@ video {
   width: 400px;
 }
 
+.w-\[450px\] {
+  width: 450px;
+}
+
 .grid-cols-\[500px\] {
   grid-template-columns: 500px;
 }
@@ -764,6 +768,14 @@ video {
 
 .gap-\[100px\] {
   gap: 100px;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
 }
 
 .rounded {
@@ -820,6 +832,26 @@ video {
   padding-bottom: 20px;
 }
 
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[20\] {
+  padding-top: 20;
+  padding-bottom: 20;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -857,6 +889,11 @@ video {
 .text-\[\#18121E\] {
   --tw-text-opacity: 1;
   color: rgb(24 18 30 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 header {
